@@ -1,0 +1,46 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body{
+	margin:0;
+}
+
+.container{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row1{
+	background-color: #8F21B2;
+	clear: both;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	line-height: 35px;
+	font-size: 20px;
+}
+.row{
+	clear: both;
+}
+.cell{
+	margin-top: 50px;
+	float: left;
+	width: 33%;
+	padding:10px;
+}
+.img-responsive{
+	max-width: 100%;
+}
+@media (max-width: 480px){
+	.cell{
+	 width: 100%;
+	}
+	.row1{
+		max-height: 100vh;
+	}
+}
